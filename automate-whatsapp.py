@@ -16,7 +16,7 @@ p_num = gp.getpass(prompt='PhoneNumber: ', stream=None)     #This prompt along w
 #capture the message
 msg='I love Python'
 
-call the method
+#call the method
 kt.sendwhatmsg(p_num,msg,19,10)
 
 --------------------------------------------------------------
