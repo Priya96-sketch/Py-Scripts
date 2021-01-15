@@ -1,0 +1,30 @@
+---
+#Project Name: BUILD A TRANSLATOR
+#Author: Priya Mondal
+#Module Used: googletrans
+---
+
+#import the package
+from googletrans import Translator
+
+# Store some text for translation in french language
+text = '''  Pour souvent, quand sur mon canapé je mens
+D'humeur vacante ou songeuse,
+Ils clignotent sur cet œil intérieur
+Quel est le bonheur de la solitude;
+Et puis mon cœur se remplit de plaisir,
+Et danse avec les jonquilles. '''
+
+# Create an instance of Translator to use
+translator = Translator()
+
+# detect the language
+lang = translator.detect(text)
+print(lang)
+
+
+# Call the translate()
+res = translator.translate(text, dest = 'en')
+
+#print the result
+print(res)
