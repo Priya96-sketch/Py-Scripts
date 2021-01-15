@@ -8,12 +8,7 @@
 from googletrans import Translator
 
 # Store some text for translation in french language
-text = '''  Pour souvent, quand sur mon canapé je mens
-D'humeur vacante ou songeuse,
-Ils clignotent sur cet œil intérieur
-Quel est le bonheur de la solitude;
-Et puis mon cœur se remplit de plaisir,
-Et danse avec les jonquilles. '''
+text = ''' Guten Morgan '''
 
 # Create an instance of Translator to use
 translator = Translator()
