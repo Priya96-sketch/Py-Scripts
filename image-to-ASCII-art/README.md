@@ -5,4 +5,4 @@
 
 
 
-<img src ="https://github.com/Priya96-sketch/Py-Scripts/blob/main/image-to-ASCII-art/image_to_ASCII_art.text">
+<img src ="https://github.com/Priya96-sketch/Py-Scripts/blob/main/image-to-ASCII-art/ascii%20art%20from%20image.jpg">
